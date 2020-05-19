@@ -1,7 +1,6 @@
 # k8s-jibri
 multiple jibri instances on kubernetes cluster. Here 40 jibri recording instances are maintained in 4 worker nodes.
 
-## file with *filename._bac* are are not used.They are only for reference.
 ### using *a1-statefulset.yaml* and *a2-statefulset.yaml* files for pods deployment.
 
 * The reason to use two staeful is due to limitation of Playback Hardaware (Loopback device) of sound card.
